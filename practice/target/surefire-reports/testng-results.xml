@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20341" started-at="2017-06-28T16:35:11Z" finished-at="2017-06-28T16:35:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20341" started-at="2017-06-28T16:35:11Z" finished-at="2017-06-28T16:35:32Z">
+      <class name="com.guru99.testcases.LoginIntoGuru99">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.testcases.LoginIntoGuru99@16eb2ec]" name="setup" is-config="true" duration-ms="10374" started-at="2017-06-28T22:05:11Z" finished-at="2017-06-28T22:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginIntoGuru99(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testcases.LoginIntoGuru99@16eb2ec]" name="loginIntoGuru99" duration-ms="7309" started-at="2017-06-28T22:05:22Z" data-provider="LoginIntoGuru99" finished-at="2017-06-28T22:05:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr82293]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mumygaq]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoGuru99 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.guru99.testcases.LoginIntoGuru99@16eb2ec]" name="close" is-config="true" duration-ms="2183" started-at="2017-06-28T22:05:30Z" finished-at="2017-06-28T22:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.guru99.testcases.LoginIntoGuru99 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
